@@ -1,0 +1,36 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:amdroid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    amdroid:layout_width="match_parent"
+    amdroid:layout_height="wrap_content"
+    amdroid:layout_marginLeft="15dp"
+    amdroid:layout_marginRight="15dp"
+    amdroid:layout_marginTop="15dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        amdroid:orientation="vertical"
+        amdroid:layout_width="match_parent"
+        amdroid:layout_height="wrap_content">
+
+        <TextView
+            amdroid:layout_width="wrap_content"
+            amdroid:layout_height="wrap_content"
+            amdroid:layout_marginStart="15dp"
+            amdroid:layout_marginTop="20dp"
+            amdroid:layout_marginBottom="20dp"
+            amdroid:text="预报"
+            amdroid:textColor="?android:textColorPrimary"
+            amdroid:textSize="20sp" />
+
+        <LinearLayout
+            amdroid:id="@+id/forecastLayout"
+            amdroid:orientation="vertical"
+            amdroid:layout_width="match_parent"
+            amdroid:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
